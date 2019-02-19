@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    outline: solid 1px green;
+    .contactForm {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        input {
+            border: 1px solid darkgray;
+            border-radius: 2px;
+            margin: 5px;
+            padding: 8px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 30px;
+            border-radius: 2px;
+            border: 1px grey solid;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
